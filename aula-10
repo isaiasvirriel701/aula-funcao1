@@ -1,0 +1,61 @@
+// this is a js file
+// Isaias Virriel
+/*
+function imprimirOlaMundo(){
+    console.log("Ola mundo!");
+}
+imprimirOlaMundo();
+
+function escreveNome(nome){
+    console.log(nome);
+}
+let meuNome = "Isaias";
+escreveNome(meuNome);
+
+const a = 1 
+
+function imprimeVariavel() {
+  const b = 2
+  console.log('variavel a', a)
+  console.log('variavel b', b)
+}
+
+imprimeVariavel()
+
+console.log('variavel a', a)
+console.log('variavel b', b)
+
+*/
+
+function calculaArea(altura, largura) {
+    const area = altura * largura
+    return area 
+}
+
+// atribul retorno a uma variavel 
+const areaCalculada = calculaArea (5, 8);
+
+console.log("variavel areaCalculada: "+areaCalculada);
+console.log("chamada da funçao crua: "+calculaArea(5, 8));
+
+//exercicio 3
+
+function somaValores(a,b){
+    return Number(a)+Number(b);
+}
+const resultadoDaSoma = somaValores(2,4);
+console.log("o resultado da soma e: "+
+   resultadoDaSoma);
+
+//exercicio-4
+
+function dividirNumeros(numerosArray) {
+let b = [(numerosArray[0] /2),
+         (numerosArray[numerosArray.lenght-1] /2)];
+return b;         
+}
+let a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,
+21,22,23,24];
+
+const resultado = dividirNumeros(a)
+console.log(resultado);
